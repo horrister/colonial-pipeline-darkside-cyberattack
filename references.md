@@ -101,3 +101,19 @@ Idaho National Laboratory case study on the Colonial Pipeline attack, published 
 **NIST SP 800-207 — Zero Trust Architecture**
 https://csrc.nist.gov/publications/detail/sp/800-207/final
 NIST's foundational Zero Trust Architecture publication. Cited in the Long-Term Hardening section as the technical basis for the recommendation to move from VPN-based perimeter security to Zero Trust access for remote employees and contractors — directly addressing the architecture that allowed a single compromised VPN credential to provide broad network access to Colonial's environment.
+
+---
+
+## Summary of Core Compromise Metrics
+
+| Metric | Detail / Value |
+| :--- | :--- |
+| **Date of Attack** | May 6, 2021 (network breach) → May 7, 2021 (ransomware deployed) |
+| **Infected Versions** | Colonial Pipeline IT systems (Windows domain environment); ~100GB of data stolen; IT systems encrypted |
+| **Malicious Artifact**| `DarkSide ransomware + Lemurloot backdoor (web shell) deployed during initial access` |
+| **Primary Vector** | Exposed/Reused VPN Password (single-sign-on account password reused from another breach) |
+| **Threat Actor** | DarkSide |
+| **Payload Names** | DarkSide Ransomware |
+
+
+
