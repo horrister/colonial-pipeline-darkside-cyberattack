@@ -10,7 +10,7 @@ A curated collection of in-depth vulnerability writeups covering real-world secu
 
 | # | Vulnerability | Type | Severity | Date | Status |
 |---|---------------|------|----------|------|--------|
-| 006 | [Colonial Pipeline — DarkSide Ransomware Incident](./../../../colonial-pipeline-darkside-cyberattack/) | Ransomware | 🔴 Critical | May 6, 2021 | 🚧 In Progress |
+| 006 | [Colonial Pipeline — DarkSide Ransomware Incident](./../../../colonial-pipeline-darkside-cyberattack/) | Ransomware | 🔴 Critical | May 6, 2021 | ✅ Complete |
 
 ---
 
@@ -19,23 +19,14 @@ A curated collection of in-depth vulnerability writeups covering real-world secu
 Each entry follows a consistent format:
 
 ```
-solarwinds-sunburst-supply-chain-attack/
-├── README.md                     # overview
-├── analysis.md                   # full writeup 
-│                                    
-│                                    
-├── references.md                 # annotated sources organized by category
-└── poc/                          # poc scripts
-    ├── scan_orion.sh             # Linux/macOS IOC scanner 
-    │                                
-    ├── check_dll_hash.ps1        # Windows PowerShell verifier 
-    │                                
-    │                                
-    ├── sunburst_dns_sim.py       # Python demo of the DNS subdomain encoding
-    │                                cipher 
-    │                                
-    └── detect_golden_saml.md     # Cloud pivot detection guide with KQL, PowerShell,
-                                     and Splunk queries for ADFS/Azure AD forensics
+colonial-pipeline-darkside-cyberattack/
+├── README.md                        # Full writeup
+├── references.md                    # Cited sources
+└── poc/                             # Detection & PoC scripts
+    │ 
+    ├── audit_remote_access.ps1      # PoC 1: AD account exposure auditor
+    ├── scan_darkside_iocs.ps1       # PoC 2: DarkSide IOC scanner (CISA hashes)
+    └── ransomware_readiness.py      # PoC 3: readiness self-assessment
 ```
 
 ## Methodology
