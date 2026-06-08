@@ -10,7 +10,7 @@ A curated collection of in-depth vulnerability writeups covering real-world secu
 
 | # | Vulnerability | Type | Severity | Date | Status |
 |---|---------------|------|----------|------|--------|
-| 006 | [Colonial Pipeline — DarkSide Ransomware Incident](./../../../colonial-pipeline-darkside-cyberattack/) | Ransomware | 🔴 Critical | May 6, 2021 | ✅ Complete |
+| 006 | [Colonial Pipeline — DarkSide Ransomware Incident](./../../../colonial-pipeline-darkside-cyberattack/blob/main/analysis.md/) | Ransomware | 🔴 Critical | May 6, 2021 | ✅ Complete |
 
 ---
 
