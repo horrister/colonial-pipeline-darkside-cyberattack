@@ -587,4 +587,4 @@ See [references.md](./references.md) for the full annotated source list.
 
 ---
 
-*Analysis compiled from public sources including CISA, FBI, Senate testimony, and published threat intelligence. Last updated: June 2026.*
+*Analysis compiled from public threat intelligence. Last updated: June 2026.*
