@@ -20,13 +20,14 @@ Each entry follows a consistent format:
 
 ```
 colonial-pipeline-darkside-cyberattack/
-├── README.md                        # Full writeup
+├── README.md                        # Project overview
+├── analysis.md                      # Full writeup
 ├── references.md                    # Cited sources
 └── poc/                             # Detection & PoC scripts
     │ 
-    ├── audit_remote_access.ps1      # PoC 1: AD account exposure auditor
-    ├── scan_darkside_iocs.ps1       # PoC 2: DarkSide IOC scanner (CISA hashes)
-    └── ransomware_readiness.py      # PoC 3: readiness self-assessment
+    ├── audit_remote_access.ps1          # PoC 1: AD account exposure auditor
+    ├── scan_darkside_iocs.ps1           # PoC 2: DarkSide IOC scanner (CISA hashes)
+    └── ransomware_readiness.py          # PoC 3: readiness self-assessment
 ```
 
 ## Methodology
